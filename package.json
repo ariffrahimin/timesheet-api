@@ -1,0 +1,17 @@
+{
+  "name": "timesheet-api",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
+    "hono": "^4.7.10",
+    "hono-openapi": "^0.4.8",
+    "js-yaml": "^4.1.0",
+    "swagger-ui": "^5.22.0",
+    "swagger-ui-dist": "^5.22.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
